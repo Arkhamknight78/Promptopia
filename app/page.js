@@ -1,5 +1,6 @@
 import Image from 'next/image'
-
+// "use client" to convert the default rendering place to be client else its server side rendering 
+//primarily used while utilising hooks useState component of React
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">

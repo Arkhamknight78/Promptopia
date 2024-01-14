@@ -1,6 +1,6 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
-
+// for generic things we want every page of our website to have we have to update layout.js
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
